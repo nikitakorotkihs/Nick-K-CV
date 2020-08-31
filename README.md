@@ -9,7 +9,7 @@
 
   <header> Nick K <br>Freelance Web Developer</header>
    
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://legoman8304.github.io/style.css">
 
  
 </head>
