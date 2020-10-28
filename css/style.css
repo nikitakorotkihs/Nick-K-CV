@@ -1,0 +1,169 @@
+body{
+    background: white;
+}
+.side_bar{
+    float: left;
+    background-color:#DAA520;
+    width: 20%;
+    height: 100%;
+}
+.side_header{
+    background-color: black;
+    color: #DAA520;
+    text-align: center;
+}
+.contact_details{
+    text-align: left;
+}
+.side_header{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.about_me_details{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hobbies{
+    padding-top: 60%;
+}
+.hobbies_details{
+    text-align: center;
+}
+img { 
+    width: 50%;
+    height: 15%;
+    border-radius: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.main_section{
+    float: left;
+    width: 80%;
+    height: 100%;
+    font-size: small;
+}
+.name{
+padding-left: 2rem;
+}
+.my_name{
+    padding-top: 9%;
+    font-size: 4em;
+}
+.title{
+    padding-bottom: 2em;
+    font-size: 2em;
+}
+.header_icon{
+    color: #DAA520;
+}
+.education_header{
+    padding-left: 2rem;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large; 
+}
+.education_title{
+    padding-left: 2rem;
+}
+.education_element_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-bottom: 3%;
+}
+.date_place{
+    width: 30%;
+}
+.education_details{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+.education_company{
+    font-size: 1.1rem;
+}
+.education_role{
+    font-size: 0.8rem;
+}
+.education_job_description{
+    font-size: 0.75rem;
+}
+.experience_header{
+    padding-left: 2rem;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large; 
+}
+.experience_title{
+    padding-left: 2rem;
+    padding-bottom: 3%;
+}
+.experience_element_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-bottom: 3%;
+}
+.date_place{
+    width: 30%;
+}
+.experience_details{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+.experience_company{
+    font-size: 1.1rem;
+}
+.experience_role{
+    font-size: 0.8rem;
+}
+.experience_job_description{
+    font-size: 0.75rem;
+}
+.references_header{
+    padding-left: 2rem;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large; 
+}
+.references_title{
+    padding-left: 2rem;
+    padding-bottom: 3%;
+}
+.references_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+.row_icon{
+    padding-right: 0.8rem;
+    color:#DAA520;
+}
+
+.ref_person2{
+padding-left: 20%;
+}
+
+
+.u{
+    width: 50%;
+    height: 5px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid  #DAA520;
+}
+
+hr{
+    color: #DAA520;
+}
