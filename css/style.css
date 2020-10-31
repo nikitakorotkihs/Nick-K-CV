@@ -5,7 +5,6 @@ body{
     float: left;
     background-color:#DAA520;
     width: 20%;
-    height: 100%;
 }
 .side_header{
     background-color: black;
@@ -45,35 +44,34 @@ img {
     font-size: small;
 }
 .name{
-padding-left: 2rem;
+padding-left: 3%;
 }
 .my_name{
     padding-top: 9%;
-    font-size: 4em;
+    font-size: 400%;
 }
 .title{
-    padding-bottom: 2em;
-    font-size: 2em;
+    padding-bottom: 3%;
+    font-size: 200%;
 }
 .header_icon{
     color: #DAA520;
 }
 .education_header{
-    padding-left: 2rem;
-    padding-top: 7%;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
     display: flex;
     flex-direction: row;
     font-size: x-large; 
 }
 .education_title{
-    padding-left: 2rem;
+    padding-left: 2%;
 }
 .education_element_row{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 2rem;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
 }
 .date_place{
     width: 30%;
@@ -82,7 +80,7 @@ padding-left: 2rem;
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin-bottom: 1rem;
+    margin-bottom: 2%;
 }
 .education_company{
     font-size: 1.1rem;
@@ -94,22 +92,20 @@ padding-left: 2rem;
     font-size: 0.75rem;
 }
 .experience_header{
-    padding-left: 2rem;
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
     display: flex;
     flex-direction: row;
     font-size: x-large; 
 }
 .experience_title{
-    padding-left: 2rem;
-    padding-bottom: 3%;
+    padding-left: 3%;
 }
 .experience_element_row{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 2rem;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
 }
 .date_place{
     width: 30%;
@@ -118,7 +114,7 @@ padding-left: 2rem;
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin-bottom: 1rem;
+    margin-bottom: 2%;
 }
 .experience_company{
     font-size: 1.1rem;
@@ -130,21 +126,20 @@ padding-left: 2rem;
     font-size: 0.75rem;
 }
 .references_header{
-    padding-left: 2rem;
-    padding-top: 1%;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
     display: flex;
     flex-direction: row;
     font-size: x-large; 
 }
 .references_title{
-    padding-left: 2rem;
-    padding-bottom: 3%;
+    padding-left: 3%;
 }
 .references_row{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 2rem;
+    padding-top: 3%;
+    padding-left: 3%;
 }
 .row_icon{
     padding-right: 0.8rem;
@@ -155,15 +150,20 @@ padding-left: 2rem;
 padding-left: 20%;
 }
 
-
-.u{
-    width: 50%;
-    height: 5px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 1px solid  #DAA520;
+.line{
+    margin-left: 3%;
+    margin-right: 8%;
+    border-top: 1px solid #DAA520;
 }
 
-hr{
-    color: #DAA520;
+.name_line{
+    display: inline;
+    border-bottom: 1px solid #DAA520;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+     min-width: 300px;
+     }
+    }
+  }
