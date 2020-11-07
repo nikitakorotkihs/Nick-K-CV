@@ -43,7 +43,7 @@ img {
     height: 100%;
     font-size: small;
 }
-.name{
+.profile{
 padding-left: 3%;
 }
 .my_name{
@@ -57,17 +57,17 @@ padding-left: 3%;
 .header_icon{
     color: #DAA520;
 }
-.education_header{
+.section_header{
     padding-left: 3%;
     padding-top: 3%;
     display: flex;
     flex-direction: row;
     font-size: x-large; 
 }
-.education_title{
+.section_title{
     padding-left: 2%;
 }
-.education_element_row{
+.section_element_row{
     display: flex;
     flex-wrap: wrap;
     padding-left: 3%;
@@ -76,64 +76,20 @@ padding-left: 3%;
 .date_place{
     width: 30%;
 }
-.education_details{
+.discription_details{
     display: flex;
     flex-direction: column;
     width: 60%;
     margin-bottom: 2%;
 }
-.education_company{
+.company_name{
     font-size: 1.1rem;
 }
-.education_role{
+.company_role{
     font-size: 0.8rem;
 }
-.education_job_description{
+.company_job_description{
     font-size: 0.75rem;
-}
-.experience_header{
-    padding-left: 3%;
-    padding-top: 3%;
-    display: flex;
-    flex-direction: row;
-    font-size: x-large; 
-}
-.experience_title{
-    padding-left: 3%;
-}
-.experience_element_row{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 3%;
-    padding-top: 3%;
-}
-.date_place{
-    width: 30%;
-}
-.experience_details{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin-bottom: 2%;
-}
-.experience_company{
-    font-size: 1.1rem;
-}
-.experience_role{
-    font-size: 0.8rem;
-}
-.experience_job_description{
-    font-size: 0.75rem;
-}
-.references_header{
-    padding-left: 3%;
-    padding-top: 3%;
-    display: flex;
-    flex-direction: row;
-    font-size: x-large; 
-}
-.references_title{
-    padding-left: 3%;
 }
 .references_row{
     display: flex;
@@ -145,25 +101,34 @@ padding-left: 3%;
     padding-right: 0.8rem;
     color:#DAA520;
 }
-
-.ref_person2{
-padding-left: 20%;
+.references_row{
+justify-content: flex-start;
 }
+
 
 .line{
     margin-left: 3%;
     margin-right: 8%;
     border-top: 1px solid #DAA520;
 }
-
 .name_line{
     display: inline;
     border-bottom: 1px solid #DAA520;
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-     min-width: 300px;
-     }
+.footer{
+     /* Footer height */
+}
+
+@media all and (max-width: 768px) {
+body{
+}
+.side_bar{
+    display: flex;
+    display: inline-block;
+    width: 100%;
+}
+.references_row{
+    justify-content: flex-start;
+}
     }
-  }
