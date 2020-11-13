@@ -116,19 +116,40 @@ justify-content: flex-start;
     border-bottom: 1px solid #DAA520;
 }
 
-.footer{
-     /* Footer height */
+
+@media all and (max-width: 768px){
+    .side_bar{
+        display: flex;
+        display: inline-block;
+        width: 100%;
+    }
+    .contact_details{
+        text-align: center;
+    }
+    .side_header{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .hobbies{
+        padding-top: 2%;
+    }
 }
 
-@media all and (max-width: 768px) {
-body{
-}
-.side_bar{
-    display: flex;
-    display: inline-block;
-    width: 100%;
-}
-.references_row{
-    justify-content: flex-start;
-}
+
+@media all and (min-width: 768px) and (max-width: 1280px){
+    .side_bar{
+        display: flex;
+        display: inline-block;
+        width: 100%;
     }
+    .contact_details{
+        text-align: center;
+    }
+    .side_header{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .hobbies{
+        padding-top: 2%;
+    }
+}
